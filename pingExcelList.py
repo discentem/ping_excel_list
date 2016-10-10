@@ -43,8 +43,8 @@ if __name__ == "__main__":
     ws = wb.get_sheet_by_name("Sheet1") #select worksheet
 
     cp = "_pings_from_"
-    files = {"successFile" : "successful" + cp + inFileName.replace(".xlsx", ""),
-             "timeoutFile" : "timeout" + cp + inFileName.replace(".xlsx", ""),
-             "failuresFile" : "failure" + cp + inFileName.replace(".xlsx", "")}
+    files = {"successFile" : "successful" + cp + inFileName.replace(".xlsx", ".txt"),
+             "timeoutFile" : "timeout" + cp + inFileName.replace(".xlsx", ".txt"),
+             "failuresFile" : "failure" + cp + inFileName.replace(".xlsx", ".txt")}
 
     pingColumn(wb = wb, ws = ws, columnHeader = "HostName", files = files, reset = True)
