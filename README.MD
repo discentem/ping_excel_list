@@ -9,4 +9,4 @@ I used it in a production scenario to check if `500+ servers` were online/respon
 	    
 **Requirements:** `openpyxl` module must be installed. The easiest method I have found is `pip install openpyxl`.
 	    
-**Usage**: Run `python pingExcelList.py`. Currently assumes there is a `.xlsx` file exists in the directory. 
+**Usage**: Run `python pingExcelList.py`. Currently assumes there is a `.xlsx` file in the project directory. 
