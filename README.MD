@@ -1,6 +1,6 @@
 **Purpose:** Pings all of the servers in a specified column in a `.xlsx` file. 
 
-I used it in a production scenario to check if `500+ servers` were online/responsive. 
+I used it to check if `500+ servers` were online/responsive. 
 
 **Warnings:**
 *I used this for one particular dataset, so I might be ignoring certain cell values for seemingly unknown reasons or not-error checking for seemingly obvious things. Feel free to submit a PR to make this more generally useful. 
